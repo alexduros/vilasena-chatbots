@@ -19,6 +19,7 @@ DA BATERIA VILA SENA !
 def samba(message):
     message.reply('https://www.youtube.com/watch?v=LTqnUudZTME')
 
-@respond_to('qui vient$', re.IGNORECASE)
+@respond_to('^qui a rempli le doodle', re.IGNORECASE)
 def samba(message):
+    message.reply('hmm, je regarde')
     message.reply('\n'.join(doodle.participants()))
