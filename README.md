@@ -4,7 +4,7 @@
 
 Hello, I'm Dudu Nobre and I am help Alex organizing Vila Sena training sessions
 
-![DuduNobre](/img/dudunobre-screenshot.png)
+![DuduNobre](./img/duduobre-screenshot.png)
 
 
 ### Commands
