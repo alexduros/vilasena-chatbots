@@ -10,6 +10,7 @@ Hello, I'm Dudu Nobre and I help Alex organize Vila Sena training sessions.
 
 * `e alegre`: A greeting message for all Vila Sena batuqeros.
 * `samba`: A must-have-seen concert of me.
+* `qui a répondu au doodle ?`: I will check the doodle to show who is going the next training session.
 
 ### Setting it up
 
