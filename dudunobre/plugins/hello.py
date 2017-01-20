@@ -27,9 +27,11 @@ def samba(message):
 @respond_to('^repet', re.IGNORECASE)
 def samba(message):
     message.reply('atta, je regarde')
-    (found_index, date) = doodle.next_training()
+    (found_index, date, participants) = doodle.next_training()
     if found_index >= 0:
         message.reply('prochaine répèt le %s à 19h30' % date.strftime("%d/%m/%Y"))
+        message.reply('on sera %s :' % len(participants))
+        message.reply('\n'.join(participants))
     else:
         message.reply('pas de répèt prévu prochainement')
 
