@@ -1,2 +1,4 @@
 slackbot_settings.py
 data
+env/
+*pyc
