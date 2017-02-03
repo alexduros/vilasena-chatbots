@@ -1,5 +1,9 @@
 # VilaSena Chatbots
 
+## Installing dependencies
+
+The best way to launch it is to place yourself in a `virtualenv` environment and installing `requirements.txt`
+
 ## Dudu Nobre
 
 Hello, I'm Dudu Nobre and I help Alex organize Vila Sena training sessions.
@@ -19,3 +23,6 @@ Hello, I'm Dudu Nobre and I help Alex organize Vila Sena training sessions.
 
 * copy `slackbot_settings.sample.py` to `slackbot_settings.py` with real credentials
 
+### Wrapping it up
+
+* You can find a `init.d` script for `dudunobre` bot in `init.d` directory.
